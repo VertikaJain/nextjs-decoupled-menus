@@ -29,7 +29,7 @@ const MenuBar = ({ data }) => {
 
     return <div>
         <header>
-            <h2>Decoupled Menus Demo using NextJS</h2>
+            <h1>Decoupled Menus Demo using NextJS</h1>
         </header>
         {/* Main root level - using single map */}
         <TreeView
