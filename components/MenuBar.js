@@ -1,4 +1,3 @@
-import Link from "next/link"
 import TreeView from '@material-ui/lab/TreeView'
 import TreeItem from '@material-ui/lab/TreeItem'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -52,7 +51,7 @@ const createTreeItem = (menuObj) => {
             className="treeItem"
             key={menuObj['drupal-menu-hierarchy'][0]}
             nodeId={menuObj['drupal-menu-hierarchy'][0]}
-            label={<Link href={menuObj.href}><a>- {menuObj.title}</a></Link>}>
+            label={<a href={menuObj.href}>- {menuObj.title}</a>}> 
         </TreeItem>
     }
     // Recursing through sub-menus
