@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 body {
-  background: rgb(232 233 246);
+  background: whitesmoke;
   color: #333;
   font-family: "Nunito";
 }
 a {
-  color: #333;
+  color: rgb(0, 83, 207);
   text-decoration: none;
 }
 .content {
@@ -47,7 +47,7 @@ header {
 }
 
 .treeView {
-  color: #330066;
+  color: black;
 }
 
 .not-found {
