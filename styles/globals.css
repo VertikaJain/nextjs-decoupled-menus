@@ -29,7 +29,6 @@ footer {
   display: block;
   text-align: center;
   padding: 30px 0;
-  margin-top: 60px;
   color: rgb(29, 29, 29);
   border-top: 1px solid #ddd;
   position: fixed;
@@ -46,4 +45,9 @@ header {
 
 .treeView {
   color: black;
+}
+
+.menuBar {
+  overflow: scroll;
+  height: 600px;
 }

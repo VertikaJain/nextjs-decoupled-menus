@@ -3,7 +3,12 @@ import MenuBar from './MenuBar'
 
 const Layout = ({ children }) => {
     return <div className="content">
-        <MenuBar data={children.props.data} />
+        <header>
+            <h1>Decoupled Menus Demo using NextJS</h1>
+        </header>
+        <div className="menuBar">
+            <MenuBar data={children.props.data} />
+        </div>
         <Footer />
     </div>
 }

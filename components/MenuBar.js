@@ -9,9 +9,6 @@ const MenuBar = ({ data }) => {
     const mainRoot = util(data)
 
     return <div>
-        <header>
-            <h1>Decoupled Menus Demo using NextJS</h1>
-        </header>
         {/* Main root level - using single map */}
         <TreeView
             className="treeView"
