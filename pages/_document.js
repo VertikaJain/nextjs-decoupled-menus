@@ -11,10 +11,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Nunito:wght@300,400,500,700&display=swap"
           />
-          <title>Decoupled Menus</title>
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="description" content="Demo of decoupled menus in nextjs with great SEO" />
-          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         </Head>
         <body>
           <Main />

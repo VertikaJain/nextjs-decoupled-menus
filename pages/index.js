@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 const menuId = "drupal-wiki"
 
 export async function getStaticProps() {
@@ -10,13 +8,6 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home() {
-  return <main>
-    <Head>
-      <title>Decoupled Menus</title>
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="description" content="Demo of decoupled menus in nextjs with great SEO" />
-      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    </Head>
-  </main>
+export default function Index() {
+  return 
 }
