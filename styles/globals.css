@@ -24,16 +24,18 @@ nav {
 nav a {
   margin-left: 12px;
 }
-nav .logo {
-  margin-right: auto;
-}
+
 footer {
   display: block;
   text-align: center;
   padding: 30px 0;
   margin-top: 60px;
-  color: #777;
-  border-top: 1px solid #eaeaea;
+  color: rgb(29, 29, 29);
+  border-top: 1px solid #ddd;
+  position: fixed;
+  bottom: 0;
+  width: 960px;  
+  font-size: small; 
 }
 
 header {
@@ -42,18 +44,6 @@ header {
   margin-bottom: 20px;
 }
 
-.container {
-  min-height: 500px;
-}
-
 .treeView {
   color: black;
-}
-
-.not-found {
-  text-align: center;
-}
-.not-found a{
-  color: #4979ff;
-  text-decoration: underline;
 }
